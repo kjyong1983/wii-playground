@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "wpad.h": "c",
+        "stdlib.h": "c"
+    }
+}
