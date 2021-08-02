@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "wpad.h": "c",
+        "stdlib.h": "c",
+        "grrlib.h": "c",
+        "font.h": "c",
+        "debug.h": "c",
+        "g_debug.h": "c"
+    }
+}

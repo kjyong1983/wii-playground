@@ -1,0 +1,61 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo Hello",
+            "problemMatcher": []
+        },
+        {
+            "label": "make",
+            "type": "shell",
+            "command": "make & start .",
+            "problemMatcher": []
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean",
+            "problemMatcher": []
+        },
+        {
+            "label": "clean & make",
+            "type": "shell",
+            "command": "make clean & make & start .",
+            "problemMatcher": []
+        },
+        {
+            "label": "copyto",
+            "type": "shell",
+            "command": "cp my.dol 'D:/A/roms/wii'",
+            "problemMatcher": []
+        },
+        {
+            "label": "run dolphin",
+            "type": "shell",
+            "command": "D:/A/roms/Dolphin-x64/Dolphin.exe",
+            "problemMatcher": []
+        },
+        {
+            "label": "run with dolphin",
+            "type": "shell",
+            "command": "D:/A/roms/Dolphin-x64/Dolphin.exe -b -e ./grrlib-my.dol",
+            "problemMatcher": []
+        },
+        {
+            "label": "make & run",
+            "type": "shell",
+            "command": "make & D:/A/roms/Dolphin-x64/Dolphin.exe -b -e ./grrlib-my.dol",
+            "problemMatcher": []
+        },
+        {
+            "label": "clean & make & run",
+            "type": "shell",
+            "command": "make clean & make & D:/A/roms/Dolphin-x64/Dolphin.exe -b -e ./grrlib-my.dol",
+            "problemMatcher": []
+        }
+    ]
+}
